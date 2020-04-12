@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\hai.nguyen\\.gradle\\caches\\transforms-2\\files-2.1\\4cc201c16630d7c70f9d667e36740117\\appcompat-v7-26.1.0\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "192,468,539,622,1032",
+                        "endLines": "9,10,11,17,23",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "463,534,617,1027,1449"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "227",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "361"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        }
+    ]
+}

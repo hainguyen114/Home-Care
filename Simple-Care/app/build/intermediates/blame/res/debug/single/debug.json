@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_pages.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_pages.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_photos.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_photos.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pages.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_pages.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_people.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home.jpg.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\home.jpg"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_security_feature.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\security_feature.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_home.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_ttest1.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\ttest1.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\xml_searchable.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_gatt_services_characteristics.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_pages.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_pages.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_b_point_setting.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\b_point_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_communities.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_communities.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_photos.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_home.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_photos.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_whats_hot.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_whats_hot.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_people.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_logo.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\home_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_communities.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_communities.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_tracker_map.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\tracker_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_leave.jpg.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\leave.jpg"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_bg_normal.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\list_item_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_communities.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_communities.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_pages.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_pages.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tab_media.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_tab_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_listitem_device.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_photos.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_people.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_register_page.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\register_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_a_point_setting.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\a_point_setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_question.jpg.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\question.jpg"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_counter_bg.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\counter_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_selector.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\list_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_page.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_home.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_member_logo.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\member_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\menu_actionbarmenu.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\menu\\actionbarmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_find_people.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_find_people.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_indoorsurfaceview.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\indoorsurfaceview.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_beacon_gray.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\beacon_gray.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\menu_gatt_services.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\menu\\gatt_services.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_photos.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_photos.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_whats_hot.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_whats_hot.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_pages.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_pages.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable_list_item_bg_pressed.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable\\list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_drawer_list_item.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\drawer_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_feet.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\feet.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_community.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_community.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_left_menus.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_left_menus.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_whats_hot.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xhdpi\\ic_whats_hot.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_whats_hot.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_whats_hot.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_people.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-mdpi\\ic_people.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_whats_hot.xml.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\layout\\fragment_whats_hot.xml"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_drawer.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-hdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_communities.png.flat",
+        "source": "C:\\Users\\hai.nguyen\\AndroidStudioProjects\\Simple-Care\\app\\src\\main\\res\\drawable-xxhdpi\\ic_communities.png"
+    }
+]

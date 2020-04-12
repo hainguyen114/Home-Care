@@ -1,0 +1,521 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.simplecare.slidingmenu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="14"
+8-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="26" />
+9-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <permission
+11-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:9:15-11:47
+12        android:name="com.nas.cruzer.permission.MAPS_RECEIVE"
+12-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:10:9-62
+13        android:protectionLevel="signature" />
+13-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:11:9-44
+14
+15    <uses-permission android:name="android.permission.BLUETOOTH" />
+15-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:14:9-72
+15-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:14:26-69
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:15:5-74
+16-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:15:22-71
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:18:9-80
+17-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:18:26-77
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:19:5-76
+18-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:19:22-73
+19    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+19-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:20:5-79
+19-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:20:22-76
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:5-67
+20-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:5-79
+21-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:22-76
+22
+23    <permission
+23-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:24:9-130
+24        android:name="com.csform.android.uiapptemplate.permission.C2D_MESSAGE"
+24-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:24:21-91
+25        android:protectionLevel="signature" />
+25-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:24:92-127
+26
+27    <uses-permission android:name="com.csform.android.uiapptemplate.permission.C2D_MESSAGE" />
+27-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:25:5-95
+27-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:25:22-92
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:5-79
+28-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:22-76
+29    <uses-permission android:name="android.permission.INTERNET" />
+29-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:5-67
+29-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:22-64
+30    <uses-permission android:name="android.permission.INTERNET" />
+30-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:5-67
+30-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:22-64
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:5-79
+31-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:22-76
+32    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+32-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:32:1-76
+32-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:32:18-74
+33    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+33-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:33:1-93
+33-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:33:18-91
+34    <!--
+35     The following two permissions are not required to use
+36     Google Maps Android API v2, but are recommended.
+37    -->
+38    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+38-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:36:1-76
+38-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:36:18-74
+39    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+39-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:37:1-74
+39-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:37:18-72
+40
+41    <uses-feature
+41-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:40:1-42:34
+42        android:glEsVersion="0x00020000"
+42-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:41:9-41
+43        android:required="true" />
+43-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:42:9-32
+44
+45    <!-- 使用GCM -->
+46    <uses-permission android:name="com.csform.android.uiapptemplate.permission.C2D_MESSAGE" />
+46-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:25:5-95
+46-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:25:22-92
+47    <!-- 存取 internet -->
+48    <uses-permission android:name="android.permission.INTERNET" />
+48-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:5-67
+48-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:21:22-64
+49    <!-- App receives GCM messages. -->
+50    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+50-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:49:1-78
+50-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:49:18-75
+51    <!-- GCM requires a Google account. -->
+52    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+52-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:51:1-67
+52-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:51:18-64
+53    <!-- Keeps the processor from sleeping when a message is received. -->
+54    <uses-permission android:name="android.permission.WAKE_LOCK" />
+54-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:53:1-64
+54-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:53:18-61
+55    <!-- 手機震動 -->
+56    <uses-permission android:name="android.permission.VIBRATE" />
+56-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:55:1-62
+56-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:55:18-59
+57    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+57-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:57:8-84
+57-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:57:25-81
+58    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+58-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:5-79
+58-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:22:22-76
+59    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+59-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:18:9-80
+59-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:18:26-77
+60    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+60-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:60:5-75
+60-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:60:22-72
+61    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+61-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:61:5-78
+61-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:61:22-75
+62    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+62-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:62:5-84
+62-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:62:22-81
+63    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+63-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:19:5-76
+63-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:19:22-73
+64    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+64-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:32:1-76
+64-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:32:18-74
+65    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+65-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:65:5-80
+65-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:65:22-77
+66
+67    <permission
+67-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+68        android:name="com.simplecare.slidingmenu.permission.C2D_MESSAGE"
+68-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+69        android:protectionLevel="signature" />
+69-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+70
+71    <uses-permission android:name="com.simplecare.slidingmenu.permission.C2D_MESSAGE" />
+71-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+71-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+72
+73    <application
+73-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:67:5-108:19
+74        android:name="android.support.multidex.MultiDexApplication"
+75        android:allowBackup="true"
+75-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:68:9-35
+76        android:debuggable="true"
+77        android:icon="@drawable/ic_launcher"
+77-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:69:9-45
+78        android:label="@string/app_name"
+78-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:70:9-41
+79        android:testOnly="true"
+80        android:theme="@style/AppTheme" >
+80-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:71:9-40
+81        <activity
+81-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:73:9-93:20
+82            android:name="com.simplecare.slidingmenu.LogInPageActivity"
+82-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:74:13-72
+83            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|layoutDirection|fontScale"
+83-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:75:114-287
+84            android:label="@string/app_name"
+84-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:75:13-45
+85            android:launchMode="singleTop"
+85-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:75:46-76
+86            android:screenOrientation="portrait" >
+86-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:75:77-113
+87            <intent-filter>
+87-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:76:13-80:29
+88                <action android:name="android.intent.action.MAIN" />
+88-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:77:17-69
+88-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:77:25-66
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+90-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:79:17-77
+90-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:79:27-74
+91            </intent-filter>
+92            <intent-filter>
+92-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:82:13-84:29
+93                <action android:name="android.intent.action.SEARCH" />
+93-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:83:17-71
+93-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:83:25-68
+94            </intent-filter>
+95
+96            <meta-data
+96-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:86:13-88:54
+97                android:name="android.app.searchable"
+97-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:87:17-54
+98                android:resource="@xml/searchable" />
+98-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:88:17-51
+99        </activity>
+100        <activity android:name="com.simplecare.slidingmenu.APointSetting" />
+100-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:94:9-77
+100-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:94:19-74
+101        <activity android:name="com.simplecare.slidingmenu.IndoorLocation" />
+101-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:95:9-78
+101-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:95:19-75
+102        <activity android:name="com.simplecare.slidingmenu.SecurityFeature" />
+102-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:96:9-79
+102-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:96:19-76
+103        <activity android:name="com.simplecare.slidingmenu.TrackerMap" />
+103-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:97:9-74
+103-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:97:19-71
+104        <activity android:name="com.simplecare.slidingmenu.MainActivity" />
+104-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:98:9-76
+104-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:98:19-73
+105        <activity android:name="com.simplecare.slidingmenu.RegisterPageActivity" />
+105-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:99:9-84
+105-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:99:19-81
+106        <activity android:name="com.simplecare.slidingmenu.ble.DeviceControlActivity" />
+106-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:102:9-88
+106-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:102:19-86
+107        <activity android:name="com.simplecare.slidingmenu.ble.DeviceScanActivity" />
+107-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:103:9-85
+107-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:103:19-83
+108
+109        <service
+109-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:104:9-107
+110            android:name="com.simplecare.slidingmenu.ble.BluetoothLeService"
+110-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:104:18-82
+111            android:enabled="true" />
+111-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:104:83-105
+112        <service android:name="org.eclipse.paho.android.service.MqttService" >
+112-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:106:9-107:19
+112-->C:\Users\hai.nguyen\AndroidStudioProjects\Simple-Care\app\src\main\AndroidManifest.xml:106:18-77
+113        </service>
+114        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+115        <activity
+115-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a5281566bcf09bf843665e260761a38c\play-services-ads-lite-12.0.1\AndroidManifest.xml:29:9-33:64
+116            android:name="com.google.android.gms.ads.AdActivity"
+116-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a5281566bcf09bf843665e260761a38c\play-services-ads-lite-12.0.1\AndroidManifest.xml:30:13-65
+117            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+117-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a5281566bcf09bf843665e260761a38c\play-services-ads-lite-12.0.1\AndroidManifest.xml:31:13-122
+118            android:exported="false"
+118-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a5281566bcf09bf843665e260761a38c\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+119            android:theme="@android:style/Theme.Translucent" />
+119-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a5281566bcf09bf843665e260761a38c\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+120
+121        <receiver
+121-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+122            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+122-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+124            android:exported="false" >
+124-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+125        </receiver>
+126
+127        <service
+127-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+128            android:name="com.google.android.gms.analytics.AnalyticsService"
+128-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+130            android:exported="false" />
+130-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+131        <service
+131-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+132            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+132-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" />
+135-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c5282773f91e5a1a42aaffc2a271d723\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+136
+137        <activity
+137-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+138            android:name="com.google.android.gms.appinvite.PreviewActivity"
+138-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+139            android:exported="true"
+139-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+140            android:theme="@style/Theme.AppInvite.Preview" >
+140-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+141            <intent-filter>
+141-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+142                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+142-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+142-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+143
+144                <category android:name="android.intent.category.DEFAULT" />
+144-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+144-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+145            </intent-filter>
+146        </activity>
+147        <activity
+147-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+148            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+148-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+149            android:excludeFromRecents="true"
+149-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+150            android:exported="false"
+150-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+151            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+151-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+152        <!--
+153            Service handling Google Sign-In user revocation. For apps that do not integrate with
+154            Google Sign-In, this service will never be started.
+155        -->
+156        <service
+156-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+157            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+157-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+158            android:exported="true"
+158-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+159            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+159-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\e7fc2033634d957b688ef605c97cc88c\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+160
+161        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+161-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\1b8a69b1bae407088aeaff0bd5bf7b3b\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+161-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\1b8a69b1bae407088aeaff0bd5bf7b3b\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+162
+163        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+163-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\1b8a69b1bae407088aeaff0bd5bf7b3b\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+163-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\1b8a69b1bae407088aeaff0bd5bf7b3b\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+164        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+164-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\1b8a69b1bae407088aeaff0bd5bf7b3b\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+164-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\1b8a69b1bae407088aeaff0bd5bf7b3b\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+165
+166        <activity
+166-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+167            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+167-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+168            android:excludeFromRecents="true"
+168-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+169            android:exported="true"
+169-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+170            android:launchMode="singleInstance"
+170-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+171            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+171-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\490b4552210afe497b17514436c91776\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+173        <activity
+173-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\35757ba1a3b80446510bef5646cb4d68\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+174-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\35757ba1a3b80446510bef5646cb4d68\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\35757ba1a3b80446510bef5646cb4d68\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\35757ba1a3b80446510bef5646cb4d68\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+177        <!--
+178             FirebaseMessagingService performs security checks at runtime,
+179             no need for explicit permissions despite exported="true"
+180        -->
+181        <service
+181-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+182            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+182-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+183            android:exported="true" >
+183-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+184            <intent-filter android:priority="-500" >
+184-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+184-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+185                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+185-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+185-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\19efb4f8c4159e95b2002d87ded08011\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+186            </intent-filter>
+187        </service>
+188        <service
+188-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+189            android:name="com.google.android.gms.tagmanager.TagManagerService"
+189-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+191            android:exported="false" />
+191-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+192
+193        <activity
+193-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+194            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+194-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+195            android:exported="true"
+195-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+196            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+196-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+197            <intent-filter>
+197-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+198                <data android:scheme="tagmanager.c.com.simplecare.slidingmenu" />
+198-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+198-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+199
+200                <action android:name="android.intent.action.VIEW" />
+200-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+200-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+201
+202                <category android:name="android.intent.category.DEFAULT" />
+202-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+202-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\7f8a6fddbf1933fcae4bdd228cce94e6\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+203                <category android:name="android.intent.category.BROWSABLE" />
+203-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+203-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\21d40cc4505b262882a67fb1e08912a2\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+204            </intent-filter>
+205        </activity>
+206
+207        <receiver
+207-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+208            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+208-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+209            android:enabled="true"
+209-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+210            android:exported="false" >
+210-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+211        </receiver>
+212        <receiver
+212-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+213            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+213-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+214            android:enabled="true"
+214-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+215            android:exported="true"
+215-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+216            android:permission="android.permission.INSTALL_PACKAGES" >
+216-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+217            <intent-filter>
+217-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+218                <action android:name="com.android.vending.INSTALL_REFERRER" />
+218-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+218-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+219            </intent-filter>
+220        </receiver>
+221
+222        <service
+222-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+223            android:name="com.google.android.gms.measurement.AppMeasurementService"
+223-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+224            android:enabled="true"
+224-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+225            android:exported="false" />
+225-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+226        <service
+226-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+227            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+227-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+228            android:enabled="true"
+228-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+229            android:exported="false"
+229-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+230            android:permission="android.permission.BIND_JOB_SERVICE" />
+230-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\11e9f8b777661b685e5a431ecf124b49\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+231
+232        <receiver
+232-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+233            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+233-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+234            android:exported="true"
+234-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+235            android:permission="com.google.android.c2dm.permission.SEND" >
+235-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+236            <intent-filter>
+236-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+237                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+237-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+237-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+238
+239                <category android:name="com.simplecare.slidingmenu" />
+239-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+239-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+240            </intent-filter>
+241        </receiver>
+242        <!--
+243             FirebaseInstanceIdService performs security checks at runtime,
+244             no need for explicit permissions despite exported="true"
+245        -->
+246        <service
+246-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+247            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+247-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+248            android:exported="true" >
+248-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+249            <intent-filter android:priority="-500" >
+249-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+249-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+250                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+250-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+250-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\a6044e34c296f5a58babdcddb08c91f7\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+251            </intent-filter>
+252        </service>
+253
+254        <provider
+254-->[com.google.firebase:firebase-common:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\2993fe959b6bd053b4f0a64dd7975f1e\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+255            android:name="com.google.firebase.provider.FirebaseInitProvider"
+255-->[com.google.firebase:firebase-common:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\2993fe959b6bd053b4f0a64dd7975f1e\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+256            android:authorities="com.simplecare.slidingmenu.firebaseinitprovider"
+256-->[com.google.firebase:firebase-common:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\2993fe959b6bd053b4f0a64dd7975f1e\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+257            android:exported="false"
+257-->[com.google.firebase:firebase-common:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\2993fe959b6bd053b4f0a64dd7975f1e\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+258            android:initOrder="100" />
+258-->[com.google.firebase:firebase-common:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\2993fe959b6bd053b4f0a64dd7975f1e\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+259
+260        <meta-data
+260-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c26b8787491205d247fdf490acd54573\play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
+261            android:name="com.google.android.gms.version"
+261-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c26b8787491205d247fdf490acd54573\play-services-basement-12.0.1\AndroidManifest.xml:24:13-58
+262            android:value="@integer/google_play_services_version" />
+262-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\c26b8787491205d247fdf490acd54573\play-services-basement-12.0.1\AndroidManifest.xml:25:13-66
+263        <meta-data
+263-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\501d7b8774579253176ad098bb43a602\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+264            android:name="android.support.VERSION"
+264-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\501d7b8774579253176ad098bb43a602\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+265            android:value="26.1.0" />
+265-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\501d7b8774579253176ad098bb43a602\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+266        <meta-data
+266-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\b0edf0305eed99bc4a3bb48b072bc6c0\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+267            android:name="android.arch.lifecycle.VERSION"
+267-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\b0edf0305eed99bc4a3bb48b072bc6c0\runtime-1.0.0\AndroidManifest.xml:26:13-58
+268            android:value="27.0.0-SNAPSHOT" />
+268-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\hai.nguyen\.gradle\caches\transforms-2\files-2.1\b0edf0305eed99bc4a3bb48b072bc6c0\runtime-1.0.0\AndroidManifest.xml:27:13-44
+269    </application>
+270
+271</manifest>
