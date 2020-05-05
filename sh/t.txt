@@ -1,0 +1,4 @@
+https://github.com/hyperledger/fabric-samples
+
+chmod +x ./scripts/bootstrap.sh
+./scripts/bootstrap.sh

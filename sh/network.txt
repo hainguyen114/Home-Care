@@ -1,0 +1,38 @@
+route -n
+ip route show
+openssl genrsa -des3 -out private.pem 1024
+openssl rsa -in private.pem -outform PEM -pubout -out public.pem
+
+
+
+
+
+copy cus_chan
+copy network.sh deployCC.sh
+./network.sh up -ca
+./network.sh createChannel
+./network.sh deployCC -n token
+./network.sh deployCC -n user 
+docker logs -f peer0.org1.example.com
+cd ../fabcar/javascript
+rm wallet/admin.id
+rm wallet/appUser.id
+npm install
+node enrollAdmin.js
+node registerUser.js
+copy 3 files
+cp /home/thanhtrang/Documents/fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.json /home/thanhtrang/Documents/clientApp/dapp/nodejs-shopping-cart/data/wallet/connection-org1.json
+cd /home/thanhtrang/Documents/fabric-samples/fabcar/javascript
+node enrollAdmin.js
+node registerUser.js
+node invokeUser.js
+cp wallet/admin.id /home/thanhtrang/Documents/clientApp/dapp/nodejs-shopping-cart/data/wallet/admin.id
+cp wallet/appUser.id /home/thanhtrang/Documents/clientApp/dapp/nodejs-shopping-cart/data/wallet/appUser.id
+cd /home/thanhtrang/Documents/clientApp/dapp/nodejs-shopping-cart/
+
+
+
+nodemon ./bin/www
+# firewall
+sudo ufw disable
+sudo ufw enable

@@ -1,0 +1,18 @@
+docker logs -f peer0.org1.example.com
+
+docker exec -it Org3cli bash
+# leave the container with exit   -> ctrl-D.
+
+
+docker run # starts a container
+docker ps # shows running containers
+docker exec # hops or "ssh" into a container
+docker attach # hops or "ssh" into a container
+docker stop # stops a container
+docker rm # removes a stopped container
+docker build # builds an image from a Dockerfile
+docker images # lists the pulled or built images
+docker push # pushes the image to a docker registry
+docker logs -f <CONTAINER> # view docker real time
+docker network inspect net_test
+

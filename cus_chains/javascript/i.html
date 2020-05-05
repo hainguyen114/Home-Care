@@ -1,0 +1,58 @@
+<body>
+    <label for="privkey">Private Key</label><br/>
+    <textarea id="privkey" rows="15" cols="65">-----BEGIN PRIVATE KEY-----
+        MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAIX1xrsX6uhtwMa3
+        i1Kqa527dcdB0ZVLcYAXiuJmZKfHPSe5bhp1PrsLj516YXLk4r2aDBleeX0uwPz0
+        2XIjIzUG2/rc4mu9XI91Tlq8qruDvkVmGDB8wZ07r+ogjSvBkYMPabGp6jnni1C9
+        2vhXSSBE+K2ofqLGORgcA1YkM8apAgMBAAECgYBXYfFWjc1//Efp2ESbketNIsE7
+        TyXlmybYhYLlGCHEh+TOitjVjXF0FaCC+xeiGMgHIfuOeOAK1nqxBw7osx79QHPU
+        +NAfBlwyHBsXfnQmEGshyTPCRZSajGzvRdBX5fcMYfN03AR+Gbeb2/YJhmty5Ijg
+        0pIHlAk+Z4NkzrG44QJBALuaodfUVPsseqz9bnqmOR62Sbk8hvVtIUJZVR9hPARW
+        Z1Qmj8MGg9fTJlJhY5keaSJBHMuciR6xY1fL9kR3sl0CQQC2zHixqtb33yP0fZkY
+        VEU9GyHqHwKEz0eYF1v9zvnMNTzaUYwjODSXz7PIOO8zDX8fAXQTCUx7lT/AHxuk
+        h/i9AkEAtGYhsxVvEojW/npFPpOQ4cOQaRuW+3IRRWf5vs8Vk2YyvmzGWVdueJ+G
+        fjlAOQFRP6s1MWY5RNZ3HPn4uiYP0QJBAJYqIFfrPM7AytuUtchLqdlJybF3Ke2K
+        DYk+Xz5/4arEbSn3ZYSlLmcro8euJamtw6jn27+rmt3GvGkJ5P5jCI0CQQCjsELH
+        2eCpqaxxh2IeYLcRK8FyOAH9YP7e7jHcKoQIX+Z58BM5XMnhJ/Uom7RSwEmN+B9r
+        WKLKkmg4I4mO9JQ4
+        -----END PRIVATE KEY-----</textarea><br/>
+    <label for="pubkey">Public Key</label><br/>
+    <textarea id="pubkey" rows="15" cols="65">-----BEGIN PUBLIC KEY-----
+        MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCF9ca7F+robcDGt4tSqmudu3XH
+        QdGVS3GAF4riZmSnxz0nuW4adT67C4+demFy5OK9mgwZXnl9LsD89NlyIyM1Btv6
+        3OJrvVyPdU5avKq7g75FZhgwfMGdO6/qII0rwZGDD2mxqeo554tQvdr4V0kgRPit
+        qH6ixjkYHANWJDPGqQIDAQAB
+        -----END PUBLIC KEY-----</textarea><br/>
+    <label for="input">Text to encrypt:</label><br/>
+    <textarea id="input" name="input" type="text" rows=4 cols=70>This is a test!</textarea><br/>
+    <input id="testme" type="button" value="Test Me!!!" /><br/>
+  </body>
+
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/node-forge@0.7.0/dist/forge.min.js"></script>
+<script> 
+ $(function() {
+
+// Run a quick encryption/decryption when they click.
+$('#testme').click(function() {
+
+//    console.log('sss');
+//var forge = new forge();
+var pvkeyStr = $('#privkey').val();
+var pbkeyStr = $('#pubkey').val();
+var pki = forge.pki;
+//var nwRsa = rsa.setPublicKey(JSON.parse(nHere), JSON.parse(eHere));
+var publicKey = pki.publicKeyFromPem(pbkeyStr);
+var privateKey = pki.privateKeyFromPem(pvkeyStr);
+// console.log(publicKey);
+// console.log(privateKey);
+var text = $('#input').val();
+var encrypted = publicKey.encrypt(text);
+var encrypted64 = forge.util.encode64(encrypted);
+
+var encryptedBuffer =forge.util.decode64(encrypted64);; 
+var decrypted = privateKey.decrypt(encryptedBuffer);
+console.log(decrypted);
+})
+})
+</script>

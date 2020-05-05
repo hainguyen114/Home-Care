@@ -1,0 +1,8 @@
+nvm ls-remote
+nvm use v8.11.3
+nvm use v12.14.1
+
+expo init my-new-project
+cd my-new-project
+expo start
+expo start --tunnel
