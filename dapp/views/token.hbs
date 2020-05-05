@@ -1,0 +1,102 @@
+<h1>{{title}}</h1> 
+
+<div>
+  <div>Choose privateKey file</div>
+  <input type='file' onchange='openFile(event)'><br>
+  <script> 
+    var openFile = function (event) {
+      var input = event.target;
+      var reader = new FileReader();
+      reader.onload = function () { 
+        $.cookie("privateKey", reader.result); 
+      };
+      reader.readAsText(input.files[0]);
+    };  
+  </script> 
+
+</div>
+
+<div>
+  <label for="ksPbKey">key Server Public Key</label><br/>
+  <textarea id="ksPbKey" rows="15" cols="65">
+-----BEGIN PUBLIC KEY-----
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYttdfxa4ewyQE7kxNe5eu+KsZ
+75biULoq8x+kKMESPnjrJVQBf+Zo3cHgn10Yopw0ebuXFJDKbre1JnHLMLSzBw6n
+XavEy9oY50Ku7z0gyDHMCjtN66jPQBZ5zOdbxkzwCy+xqw3nrD1j1mUHS12p7V9V
+fVB4DXDUO+C4oyqD4wIDAQAB
+-----END PUBLIC KEY-----
+  </textarea><br/>
+</div>
+
+
+<div>
+  <div>{{message}}</div>
+  <div>request token</div>
+  <form action="/token" method="POST">
+    <input type="text" id='userId' name="userId" placeholder="UserId" value="user2" required>
+    <input type="text" id='tokenInfo' name="tokenInfo" placeholder="tokenInfo" value="1" required>
+    <input type="submit">
+  </form>
+</div>
+
+
+{{# if key }}
+<div>
+  <div> key: {{key}}  </div> 
+</div>
+{{ else }}
+{{!--  empty. --}}
+{{/if}}
+
+
+
+{{# if token }}
+<div> 
+  <script>var tokenInfo = '{{ token }}'</script>
+  <script src="https://cdn.jsdelivr.net/npm/node-forge@0.7.0/dist/forge.min.js"></script>
+  <script src="../js/clientRequestKey.js"> </script>
+</div>
+{{ else }}
+{{!--  empty. --}}
+{{/if}}
+
+
+
+{{# if response }}
+<div>not move {{ response }}</div>
+<div>
+  <div class="checkContainer">
+    <div class="loader"></div> 
+    <script>var res = ('{{response}}')</script> 
+    <script src="https://cdn.jsdelivr.net/npm/node-forge@0.7.0/dist/forge.min.js"></script>
+    <script src="./js/clientRequestToken.js"></script>
+  </div>
+</div>
+{{ else }}
+{{!-- Token is empty. --}}
+{{/if}}
+
+
+{{# if tokenArr }}
+<div class="cart page">
+  <ul class="list-group">
+    {{# each tokenArr }}
+    <li class="list-group-item clearfix">
+      <div class="col-xs-5">
+        <strong>txid:</strong>  <br />
+        <strong>userid: </strong> {{ this.data.userid}}<br />
+        <strong>org: </strong> {{ this.data.org}}<br />
+        <strong>tokenInfo: </strong> {{ this.data.tokenInfo}}<br />
+        <strong>iss: </strong> {{ this.data.iss}}<br />
+        <strong>exp: </strong> {{ this.data.exp}}<br />
+      </div>
+      <div class="col-xs-5">
+      </div>
+    </li>
+    {{/each}}
+  </ul>
+</div>
+<hr>
+{{ else }}
+{{!-- Token is empty. --}}
+{{/if}}
